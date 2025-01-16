@@ -4,10 +4,17 @@
   justify-content: space-between;
   align-items: center;
   margin: 25px 0;
+  gap: 25px;
 }
 
 .todo-title {
   font-size: 19px;
+  color: black;
+}
+
+.todo-title.completed {
+  text-decoration: line-through;
+  color: #707070;
 }
 
 button {
@@ -17,4 +24,25 @@ button {
   color: #ff0b37;
   border-radius: 6px;
   font-size: 14px;
+}
+
+.edit-button {
+  border-color: grey;
+  color: grey;
+}
+
+.todo-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-checkbox-wrapper input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
 }

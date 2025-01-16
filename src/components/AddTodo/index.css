@@ -1,0 +1,24 @@
+.add-todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+  gap: 20px;
+}
+
+.add-todo__input {
+  width: 100%;
+  background-color: transparent;
+  padding: 7px 20px;
+  border: 2px solid #9d9d9d;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.add-todo__button {
+  border-color: steelblue;
+  background-color: steelblue;
+  padding: 8px 28px;
+  color: white;
+}
