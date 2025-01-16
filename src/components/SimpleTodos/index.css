@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px), (min-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffc2a0;
+    padding: 20px;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    min-width: 300px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+
+  .container ul {
+    list-style: none;
+  }
+
+  .heading {
+    font-size: 40px;
+    color: #ff8542;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 900px;
+    padding: 70px;
+  }
+}

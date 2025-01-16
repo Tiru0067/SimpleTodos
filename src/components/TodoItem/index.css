@@ -1,0 +1,20 @@
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.todo-title {
+  font-size: 19px;
+}
+
+button {
+  padding: 7px 20px;
+  background-color: transparent;
+  border: 2px solid #ff0b37;
+  color: #ff0b37;
+  border-radius: 6px;
+  font-size: 14px;
+}
